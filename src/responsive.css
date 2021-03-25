@@ -1,0 +1,125 @@
+@media screen and (max-width: 1680px){
+    a.bottone-touch {left: 42%}
+    .inner-section {width: 80%}
+    .col-sx, .col-cc, .col-dx {width: 27.33%;margin: 0 32px}
+    .col-cc{margin-top: 150px}
+    .project-title {
+    font-size: 55px;
+}
+    .swiper-container {height: 360px!important;margin: -220px auto 250px auto}
+    .swiper-slide{margin: 0!important; margin-right: 170px!important} 
+    .coffee-footer::after {height: 185px}
+    .first img{width: 90%}
+    .second img{width: 60%}
+    /*pagina mgs*/
+    .sinistra {background-position: 10%}
+    .sinistra.invertita {background-position: center}
+    /*pagina colorectal*/
+    .container-to-rotate{background-position: 30%}
+    .call-to-action .bottone span {margin: 0 0 0 85px} 
+}
+@media screen and (max-width: 1377px){
+    .img-hover-zoom{height: unset}
+    .descrizione {margin: 10px}
+    .inner-section{width: 80%}
+    .title h1,h2.section-title {font-size: 70px}
+    h2.subtitle,span.wrap,button, button.bottone-out.noContent{font-size: 21px}
+    button, button.bottone-out.noContent{margin: 60px auto}
+    .swiper-slide{width: 485px!important}
+    .inner-section {width: 80%}
+    .col-sx, .col-cc, .col-dx {width: 27%}
+    .swiper-container {height: 320px!important;margin: -220px auto 100px auto!important}
+    .container {top: calc(58% - 110px)}
+    .swiper-slide{width:480px!important; margin-right: 110px!important} 
+    .project-title {right: -60px;font-size: 50px}
+    .project-subtitle{right: -60px}
+    div#tre p {font-size: 18px}
+    h2{font-size: 40px}
+    .container{height:500px}
+    /*colorectal*/    
+    img.button-to-rotate {top: -10%}
+  
+}
+@media screen and (max-width: 1280px){
+    .header a.progetti {
+        right: 5em;
+    }
+    .header .logo {
+        left: 14%;
+    }
+    #uno,#paralax {
+        background-image: unset;
+    }
+    .outer-wrapper{
+        display: none;
+    }
+    #quattro a {
+        font-size: 60px;
+    }
+    .container {
+        top: unset;
+        bottom: 0!important;
+        left: 30%;
+    }
+    .coffee-header {
+        height: 80px;
+    }
+    .coffee-footer {
+        height: 100px;
+    }
+    .coffee-footer::after {
+        height: 110px;
+    }
+    .coffee-medium {
+        height: 160px;
+    }
+    .copyright {
+        background: #101745;
+    }
+}
+
+
+
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+   .destra {height: 100vh}    
+   .destra-mobile {height: 80vh}
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+      .destra {height: 80vh}
+      .destra-mobile {height: 70vh}
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+      .destra {height: 70vh}
+      .destra-mobile {height: 50vh}
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+      .destra {height: 60vh}
+      .destra-mobile {height: 50vh}
+}
