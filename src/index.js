@@ -8,6 +8,7 @@ import Navbar from './component/navBar';
 import Sectionone from './component/hello';
 import Chisono from './component/chisono';
 import Lavori from './component/lavori';
+import Separator from './component/separator';
 import Skill from './component/skill';
 import Footer from './component/footer';
 import Copyright from './component/copyright';
@@ -20,7 +21,8 @@ ReactDOM.render(
     <Sectionone></Sectionone>
     <Chisono></Chisono>
     <Lavori></Lavori>
-    <Skill></Skill>
+    <Separator></Separator>
+    <Skill></Skill>    
     <Footer></Footer>
     <Copyright></Copyright>
   </div>,

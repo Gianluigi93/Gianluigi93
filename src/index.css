@@ -11,7 +11,8 @@ body {
 
 html {
   scroll-behavior: smooth;
-  min-height: 100%
+  min-height: 100%;
+  scroll-snap-type: y mandatory;
 }
 
 div#mousepassage{
@@ -470,6 +471,7 @@ a.link-text:hover:after {
 }
 
 /*skills - Horozontal scroll*/
+#skills{display: none;}
 /*parallax*/
 .slide {
   height: 100vh;
@@ -521,15 +523,29 @@ a.link-text:hover:after {
   background: rgba(239, 222, 254, 0);
   width: 400vw
 }
+
 .slide h3 span{display: block}
+.two{
+  background-image: url(../src/images/html-background.jpg);
+  background-size: cover;
+}
+.three{
+  background-image: url(../src/images/css-background.jpg);
+  background-size: cover;
+}
+.four{
+  background-image: url(../src/images/js-background.jpg);
+  background-size: cover;
+}
+.five{
+  background-image: url(../src/images/ai-background.jpg);
+  background-size: cover; 
+}
+
 .one h3{text-align: center; color: #fff;font-size: 70px}
 .one p{text-align: center; color: #fff}
-.two,.three,.four,.nine {
-  background:#283693
-}
-.five,.six,.seven{
-  background:#FF9800
-}
+
+
 .eight,.ten,.eleven{
   background: #101645
 }
@@ -577,6 +593,10 @@ a.link-text:hover:after {
 }
 .two p{text-align: center; color: #fff}
 
+/*sezione skills*/
+.sezione.skills{
+  display: none
+}
 .wrapper {
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
@@ -910,6 +930,9 @@ a.link-text:hover:after {
 .color-orange-light {
   background-color: #FF9800;
 }
+.color-blue-darker {
+  background-color: #05081d;
+}
 /* change mouse graphic */
 
 .color-blue-dark{
@@ -991,4 +1014,24 @@ text.pie-percent-6,text.pie-percent-7,text.pie-percent-8,text.pie-percent-9,text
 text.pie-percent-13,text.pie-percent-14,text.pie-percent-15,text.pie-percent-9,text.pie-percent-10,text.pie-percent-11,text.pie-percent-12 {
   font-weight: 300;
   font-size: 40px;
+}
+
+/*separator*/
+h3 {
+  font-size: 10em;
+  color: #fff;
+}
+h3 span {
+  display: block;
+}
+.cerchio {
+  height: 40%;
+  width: 40%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  border-radius: 100%
+
 }
